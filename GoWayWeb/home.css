@@ -1,0 +1,466 @@
+
+body{font-family: Arial;
+
+padding: 0px;
+margin: 0px;
+}
+
+*{
+  
+    transition:all .3s linear;
+}
+html
+{
+	 scroll-behavior:smooth;
+	 overflow-x:hidden;
+    scroll-padding-top:6rem;
+}
+
+
+.nav-div{
+	background-color: white;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: fixed;
+	border-left: 10px solid #107cf1;
+	
+
+}
+.nav-div table
+{
+	width: 100%;
+}
+
+.nav-div2 a{
+
+	text-decoration: none;
+	padding: 5px;
+	padding-left: 35px;
+	text-align: right;
+	color: gray;
+
+}
+
+.nav-div2 a:last-child
+{
+	font-weight: bold;
+}
+
+
+
+.nav-div2 a:hover
+{
+	color: #107cf1;
+	font-weight: bold;
+	opacity: 10;
+}
+.nav-div2 a:last-child:hover
+{
+		
+		background-color: #107cf1 ;
+		color: white;
+}
+.nav-link
+{
+	
+	text-align: :center;
+
+}
+
+.div1
+{
+	background-image: url(ra.jpg);
+	padding: 50px;
+	padding-bottom: 100px;
+	background-size: cover;
+	padding-left: 150px;
+	padding-right: 150px;
+	background-attachment: fixed;
+
+
+}
+
+.div1 table tr td p
+{
+	font-size: 30pt;
+	font-weight: bold;
+	color: white;
+	line-height: 50px;
+}
+
+
+.div-login
+{
+	background-color: white;
+	
+	padding-bottom: 30px;
+	padding-top: 17px;
+	padding-left: 45px;
+	padding-right: 45px;
+	border-radius: 8px;
+	text-align: center;
+	 
+	
+
+}
+.div-login input
+{
+	padding: 8px;
+	/*padding-right: 100px;*/
+	border-radius: 5px;
+	/*border: 1px solid gray;*/
+	background-color: whitesmoke;
+	border: none;
+
+	width: 330px;
+   	padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+   	/*margin: .6rem 0;*/
+  	border: 1px solid rgba(0,0,0,.3);
+    text-transform: none
+    
+
+
+
+}
+
+.div-login label{
+	color: red;
+	font-size: 9pt;
+	float: left;
+	margin-bottom: 7px;
+}
+
+
+.div-login a{
+	text-decoration: none;
+	font-family: sans-serif;
+
+}
+.div-login a:hover
+{
+	text-decoration: underline;
+}
+
+.div-login button
+{
+	padding: 8px;
+	width: 350px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	font-size: 14pt;
+	font-weight: bold;
+	color: white;
+	background-color: #107cf1;
+	cursor: pointer;
+	font-family: sans-serif;
+	
+
+
+
+
+}
+
+.div-login button:hover
+{
+	background-color: #0d6fd9;
+}
+
+.div2
+{
+	/*background-image: url(mm1.jpg);*/
+	background-color: #efefef;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 0px;
+	padding-left: 150px;
+	padding-right: 150px;
+
+
+}
+
+.div2 table{
+	width: 100%;
+}
+.div2 h1
+{
+	color: black;
+}
+
+.pd{
+	padding: 0px;
+	margin: 0px;
+}
+
+.div3
+{
+	margin-right: 150px;
+	margin-left: 150px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+/*	border: 1px solid skyblue;*/
+	border-radius: 10px;
+	padding: 50px;
+	background-color: whitesmoke;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div3 h2
+{
+	padding-top: 0px;
+	margin-top: 0px;
+	color: #444445;
+}
+.div3 p
+{
+	
+	text-align: justify;
+	padding-top: 0px;
+	margin-top: 0px;
+	color: #3f3f3f;
+
+}
+.div3 img{
+	float: left;
+	
+}
+
+.div-whyBook{
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.div-whyBook table
+{
+	width: 100%;
+}
+
+.div-whyBook table tr td {
+	text-align: center;
+}
+.div-whyBook p {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 10pt;
+
+}
+
+.div-whyBook h3
+{
+	
+	font-size: 12pt;
+}
+.div-whyBook img:hover
+{
+	 transform: scale(1.05); 
+
+}
+
+.padd{
+	padding-top:0px;
+	margin-top: 0px;
+	
+}
+
+.div5{
+	background-image: url(12.jpg);
+	background-size: cover;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	color: white;
+	background-attachment: fixed;
+}
+
+.div5 table
+{
+	width: 100%;
+}
+
+.div5 p{
+	text-align: justify;
+}
+
+.divRate img{
+	border-radius: 50%;
+	width: 60%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.divRate{
+	background-color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-radius: 30px;
+	padding-left: 17px;
+	padding-right: 17px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+} 
+.divRate h3{
+	font-family: Century Gothic;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.divRate p{
+	font-family: MV Boli;
+	padding-top: 0;
+	margin-top: 0;
+	color: black;
+}
+
+.divRate:hover{
+	 transform: scale(1.03); 
+	border: 3px solid whitesmoke;
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+	 transition:all .5s linear;
+}
+
+.div6{
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+
+.div6 table
+{
+	width: 100%;
+}
+
+.div6 table td{
+	width: 33.33%;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.div6 h1{
+	text-align: center;
+	color: #107cf1 ;
+	font-family: Century Gothic;
+	padding-bottom: 0;
+}
+
+.div7{
+	background-color: #212529;
+	text-align: center;
+	padding: 20px;
+	margin-top: 23px;
+	padding-bottom: 40px;
+}
+
+.div7 h2{
+	color: #ffc107;
+	font-size: 16pt;
+}
+
+.div7 p{
+	color: white;
+	text-align: center;
+}
+
+.div7 a{
+	text-decoration: none;
+	border: 1px solid #ffc107;
+	border-radius: 30px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-left: 20px;
+	color: #ffc107;
+
+}
+
+.div7 a:hover{
+		background-color: #ffc107;;
+		color: black;
+}
+
+
+.footer{
+	padding: 40px 0;
+	background-color: white;
+	font-weight: 400; 
+	font-family: 'Segoe UI';
+
+}
+
+.footer .social{
+	text-align: center;
+	padding-bottom: 25px;
+	color: #4b4c4d;
+
+}
+
+.footer .social a{
+		font-size: 24px;
+		color: inherit;
+		border: 1px solid #ccc;
+		width: 40px;
+		height: 40px;
+		line-height: 38px;
+		display: inline-block;
+		text-align: center;
+		border-radius: 50%;
+		margin: 0 8px;
+		opacity: 0.75;
+}
+
+.footer .social a:hover{
+	opacity: 0.9;
+	color: #107cf1;
+	border-color: #107cf1;
+}
+
+.footer ul{
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.footer ul li a{
+	color: inherit;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.footer ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+.footer ul li a:hover
+{
+	opacity: 10;
+
+}
+
+.end-div{
+	background-color: #3f3f3f;
+	text-align: center;
+	color: white;
+	padding: 2px;
+	font-size: 12px;
+	font-family : 'Nunito', sans-serif; 
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --blue:#3885a9;
+}
+
+*{
+    font-family : 'Nunito', sans-serif; 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition:all .2s linear;
+}
+
+*::selection{
+    background:var(--blue);
+    color:#fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-padding-top:6rem;
+    scroll-behavior:smooth;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+header .logo span{
+    color:var(--blue);
+}
+
+header .navbar a{
+    color:#fff;
+    font-size:2rem;
+    margin:0.8rem;
+}
+
+header .navbar a:hover{
+    color: var(--blue);
+}
+#menu-bar{
+    color: #fff;
+    border: 1rem #fff;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer; 
+}
+
+#vedio-slider{
+position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 146%;
+    width: 50%;
+    object-fit: cover;
+}
+.right{
+   margin-left: 850px;
+}
+.left, .right{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.right .copy{
+    text-align: center;
+}
+.right form{
+    width: 328px;
+}
+.input .box{
+    width: 450px;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    margin: .6rem 0;
+    border: 2px solid rgba(0,0,0,.3);
+    text-transform: none;
+    border-radius: 15px;
+    margin-bottom: 3px;
+}
+.label1_1{
+    font-size: 1.7rem;  
+    color: rgba(73, 72, 72, 0.733);
+
+}
+.label1_2{
+    font-size: 1.7rem;  
+    color: rgba(73, 72, 72, 0.733);
+    margin-left: 20px;
+}
+.label{
+    width: 150%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    margin: .6rem 0;
+    /*border: 2px solid rgba(0,0,0,.3);*/
+    text-transform: none;
+  /*  border-radius: 15px;*/
+    margin-bottom: 3px;
+}
+
+
+
+#bagT{
+    margin-left: 8px;
+}
+.dropDown{
+    width: 450px;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #333;
+    margin: .6rem 0;
+    border: 2px solid rgba(0,0,0,.3);
+    text-transform: none;
+    border-radius: 15px;
+    
+}
+.dropDown select option{
+    font-family: 'Nunito', sans-serif ;
+    color: #333;
+}
+
+    .btn{
+        
+        width: 450px;
+        display: inline-block;
+        margin-top: 1rem;
+        background: var(--blue);
+        color:#fff;
+        padding: .8rem 3rem;
+        border: .2rem solid var(--blue);
+        cursor: pointer;
+        font-size: 1.7rem;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background-color: rgba(88, 86, 207, 0.13);
+        color: (--blue);
+    }
+    .inner-footer{
+        margin: 0;
+        padding: 0;
+        background-color: #272727;
+    }
+    .social-links{
+        display: flex;
+    }
+    .social-links ul{
+        padding: 20px;
+        display: flex;
+        width: 300px;
+        height: 30px;
+        margin: auto;
+       
+    }
+    .social-items{
+        list-style: none;
+    }
+    .social-items a{
+        padding: 10px 20px;
+        font-size: 30px;
+        color: #fff;
+        transition: all .25s;
+
+    }
+    .social-items a:hover{
+        color:var(--blue);
+    }
+    .hi{
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        font-size: 10pt;
+        margin: 12px;
+    }
+    .outer-footer{
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        background-color: #3f3f3f;
+    }
+	
+/*	baggage*/
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.lbl
+{
+	font-weight:bold;
+	color:white;
+	opacity:0.8;
+	float:right;
+}
+
+.lblleft{
+	float:left;
+	font-weight:bold;
+	color:white;
+	opacity:1;
+	
+}
+
+
+.cbtn{
+	 
+        width: 450px;
+        display: inline-block;
+        margin-top: 1rem;
+        background: var(--blue);
+        color:#fff;
+        padding: .8rem 3rem;
+        border: .2rem solid var(--blue);
+        cursor: pointer;
+        font-size: 1.7rem;
+        border-radius: 5px;
+}
+.cbtn:hover{
+ background-color: rgba(88, 86, 207, 0.13);
+        color: (--blue);
+}
+.
+  
+  

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --blue:#3885a9;
+}
+body{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+*{
+    font-family : 'Nunito', sans-serif; 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition:all .2s linear;
+}
+
+*::selection{
+    background:var(--blue);
+    color:#fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-padding-top:6rem;
+    scroll-behavior:smooth;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.split-screen{
+    display: flex;
+    flex-direction: column;
+	
+}
+.left{
+    height: 200px;
+}
+.left, .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url('car2.jpg');
+    background-size:cover;
+    
+}
+.left .copy{
+    color: #fff;
+    text-align: center;
+    -webKit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+.left p{
+    font-weight: 400;
+}
+.right .copy{
+    text-align: center;
+}
+.right form{
+    width: 328px;
+}
+
+
+
+
+.space{
+    margin-bottom: 50px;
+}
+
+    .input-container-form .box{
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.7rem;
+        color: #333;
+        margin: .6rem 0;
+        border: 2px solid rgba(0,0,0,.3);
+        text-transform: none;
+        border-radius: 15px;
+        margin-bottom: 3px;
+    
+    }
+    .input-container-form-label label{
+        font-size: 1.5rem;
+        color: rgb(167, 37, 37);
+       
+    }
+    .dropDown{
+        width: 100%;
+        padding: 1rem;
+        font-size: 2rem;
+        color: #333;
+        margin: .6rem 0;
+        border: 2px solid rgba(0,0,0,.3);
+        text-transform: none;
+        border-radius: 15px;
+        
+    }
+    .dropDown select option{
+        font-family: 'Nunito', sans-serif ;
+        color: #333;
+    }
+    
+        .btn{
+            
+            width: 100%;
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--blue);
+            color:#fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--blue);
+            cursor: pointer;
+            font-size: 1.7rem;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            background-color: rgba(88, 86, 207, 0.13);
+            color: (--blue);
+        }
+        .inner-footer{
+            margin: 0;
+            padding: 0;
+            background-color: #272727;
+        }
+        .social-links{
+            display: flex;
+        }
+        .social-links ul{
+            padding: 20px;
+            display: flex;
+            width: 300px;
+            height: 30px;
+            margin: auto;
+           
+        }
+        .social-items{
+            list-style: none;
+        }
+        .social-items a{
+            padding: 10px 20px;
+            font-size: 30px;
+            color: #fff;
+            transition: all .25s;
+
+        }
+        .social-items a:hover{
+            color:var(--blue);
+        }
+        .label{
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            font-size: 10pt;
+            margin: 12px;
+            
+        }
+        
+        .outer-footer{
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+            background-color: #3f3f3f;
+        }
+        @media screen and (min-width:900px){
+            .split-screen{
+                flex-direction: row;
+                height: 100vh;
+            }
+            .left, .right{
+                display: flex;
+                width: 50%;
+                height: auto;
+            }
+        }
+		
+		
+		
+		.nav-div{
+	background-color: white;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	position: fixed;
+	border-left: 10px solid #107cf1;
+	
+	
+
+}
+.nav-div table
+{
+	width: 100%;
+}
+
+.nav-div2 a{
+
+	text-decoration: none;
+	padding: 5px;
+	padding-left: 35px;
+	text-align: right;
+	color: gray;
+
+}
+
+.nav-div2 a:last-child
+{
+	font-weight: bold;
+}
+
+
+
+.nav-div2 a:hover
+{
+	color: #107cf1;
+	font-weight: bold;
+	opacity: 10;
+}
+.nav-div2 a:last-child:hover
+{
+		
+		background-color: #107cf1 ;
+		color: white;
+}
+.nav-link
+{
+	
+	text-align: :center;
+
+}
+
+

@@ -1,0 +1,51 @@
+.nav-div{
+	background-color: white;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position: fixed;
+	border-left: 10px solid #107cf1;
+	
+
+}
+.nav-div table
+{
+	width: 100%;
+}
+
+.nav-div2 a{
+
+	text-decoration: none;
+	padding: 5px;
+	padding-left: 35px;
+	text-align: right;
+	color: gray;
+
+}
+
+.nav-div2 a:last-child
+{
+	font-weight: bold;
+}
+
+
+
+.nav-div2 a:hover
+{
+	color: #107cf1;
+	font-weight: bold;
+	opacity: 10;
+}
+.nav-div2 a:last-child:hover
+{
+		
+		background-color: #107cf1 ;
+		color: white;
+}
+.nav-link
+{
+	
+	text-align: :center;
+
+}

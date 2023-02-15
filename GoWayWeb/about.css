@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --blue:#3885a9;
+}
+
+*{
+    font-family : 'Nunito', sans-serif; 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition:all .2s linear;
+
+}
+
+*::selection{
+    background:var(--blue);
+    color:#fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-padding-top:6rem;
+    scroll-behavior:smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+  
+    align-items: center;
+}
+.space{
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+h2{
+    text-align: center;
+    color: #333
+}
+p{
+    font-size: 11pt;
+    font-weight: 700;
+    color: #333;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+header .logo span{
+    color:var(--blue);
+}
+
+header .navbar a{
+    color:#fff;
+    font-size:2rem;
+    margin:0.8rem;
+}
+
+header .navbar a:hover{
+    color: var(--blue);
+}
+#menu-bar{
+    color: #fff;
+    border: 1rem #fff;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer; 
+}
+
+.contact-in{
+     width: 90%;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 10px;
+     border-radius: 10px;
+     background: #fff;
+     box-shadow: 0px 0px 10px 0px #666;
+ 
+}
+
+.contact-map {
+    width: 100%;
+    height:auto;  
+    flex: 50%;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 100%;  
+}
+.contact-form{
+   
+    width: 100%;
+    height: auto;
+    flex: 50%;
+   
+  
+}
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+.social-links{
+    display: flex;
+}
+.social-links ul{
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+   
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #fff;
+    transition: all .25s;
+
+}
+.social-items a:hover{
+    color:var(--blue);
+}
+.label{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 10pt;
+    margin: 12px;
+    
+}
+
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #3f3f3f;
+}
+
+.imageies{
+    background-image: url("paul-hanaoka-D-qq7W751vs-unsplash.jpg"); /* The image used */
+    height: 350px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
